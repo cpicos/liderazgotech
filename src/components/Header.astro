@@ -1,29 +1,62 @@
 <header
-    class="bg-[#FFCC00] text-[#1A1A1A] font-['Space_Grotesk'] font-bold uppercase tracking-tighter border-b-4 border-[#1A1A1A] flex justify-between items-center w-full px-16 py-6 fixed top-0 z-50"
+    class="bg-[#FFCC00] text-[#1A1A1A] font-['Space_Grotesk'] font-bold uppercase tracking-tighter border-b-4 border-[#1A1A1A] flex justify-between items-center w-full px-8 md:px-16 py-6 fixed top-0 z-50"
 >
-    <div class="text-3xl font-black text-[#1A1A1A] tracking-widest">
+    <div class="text-2xl md:text-3xl font-black text-[#1A1A1A] tracking-widest">
         LIDERAZGOTECH
     </div>
-    <nav class="hidden md:flex gap-12 items-center">
+
+    <!-- Botón Menú Móvil (Solo visible en pequeño) -->
+    <button
+        id="menu-bg"
+        class="md:hidden flex items-center justify-center p-2 border-4 border-[#1A1A1A] bg-white text-[#1A1A1A]"
+    >
+        <span class="material-symbols-outlined text-3xl" id="menu-icon"
+            >menu</span
+        >
+    </button>
+
+    <!-- Navegación -->
+    <nav
+        id="nav-menu"
+        class="hidden absolute top-full left-0 w-full bg-[#FFCC00] border-b-4 border-[#1A1A1A] flex-col items-center gap-6 py-8 md:static md:w-auto md:bg-transparent md:border-none md:flex md:flex-row md:gap-12 md:py-0"
+    >
         <a
-            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1"
+            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1 w-full text-center md:w-auto"
             href="#mision">Misión</a
         >
         <a
-            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1"
+            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1 w-full text-center md:w-auto"
             href="#servicios">Servicios</a
         >
         <a
-            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1"
+            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1 w-full text-center md:w-auto"
             href="#galeria">Galería</a
         >
         <a
-            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1"
+            class="text-[#1A1A1A] opacity-80 hover:bg-[#1A1A1A] hover:text-white transition-none px-2 py-1 w-full text-center md:w-auto"
             href="#contacto">Contacto</a
         >
         <button
-            class="bg-[#1A1A1A] text-white px-8 py-3 font-black tracking-widest hover:bg-white hover:text-[#1A1A1A] border-4 border-[#1A1A1A] transition-none"
-            >ENTRAR</button
+            class="bg-[#1A1A1A] text-white px-8 py-3 font-black tracking-widest hover:bg-white hover:text-[#1A1A1A] border-4 border-[#1A1A1A] transition-none mt-4 md:mt-0"
         >
+            ENTRAR
+        </button>
     </nav>
 </header>
+
+<script>
+    const menuBtn = document.getElementById("menu-bg");
+    const navMenu = document.getElementById("nav-menu");
+    const menuIcon = document.getElementById("menu-icon");
+
+    menuBtn?.addEventListener("click", () => {
+        navMenu?.classList.toggle("hidden");
+        navMenu?.classList.toggle("flex");
+
+        // Cambiar icono entre 'menu' y 'close'
+        if (menuIcon) {
+            menuIcon.textContent =
+                menuIcon.textContent === "menu" ? "close" : "menu";
+        }
+    });
+</script>
