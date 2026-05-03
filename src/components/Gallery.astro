@@ -1,43 +1,45 @@
-<section class="bg-[#1A1A1A] py-block-padding overflow-hidden" id="galeria">
-    <div class="px-16 mb-16 flex justify-between items-end">
-        <h2 class="text-headline-lg font-headline-lg uppercase text-[#FFCC00]">
+<section class="bg-[#1A1A1A] py-12 md:py-[var(--block-padding)] overflow-hidden" id="galeria">
+    <!-- Header de la Galería -->
+    <div class="px-6 sm:px-10 md:px-16 mb-8 md:mb-16 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
+        <h2 class="text-3xl md:text-headline-lg font-bold uppercase text-[#FFCC00] leading-tight">
             Evidencia de Impacto
         </h2>
-        <div class="text-[#FFCC00] font-key-concept text-key-concept">
+        <div class="text-[#FFCC00] font-key-concept text-key-concept border-l-4 sm:border-l-0 sm:border-r-4 border-[#FFCC00] pl-4 sm:pl-0 sm:pr-4">
             ARCHIVO.2024.B
         </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-4 px-16">
-        <!-- Large Image -->
+
+    <!-- Grid de Imágenes -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-4 px-6 sm:px-10 md:px-16">
+        <!-- Imagen Principal (Grande) -->
         <div
-            class="md:col-span-8 h-[500px] border-4 border-[#FFCC00] overflow-hidden grayscale contrast-125"
+            class="md:col-span-8 h-[300px] sm:h-[400px] md:h-[500px] border-4 border-[#FFCC00] overflow-hidden grayscale contrast-125"
         >
             <img
                 alt="Colaboración en oficina"
-                class="w-full h-full object-cover"
-                data-alt="A professional business team in a high-tech boardroom, engaged in a deep strategic discussion. The room is designed with minimalist industrial features, including exposed concrete walls and large floor-to-ceiling windows showing a modern city skyline. The lighting is sharp, creating deep shadows and bright highlights in a monochromatic palette. Everyone is dressed in sleek, modern professional attire, reflecting a mood of intense focus and intellectual authority."
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtPJUnLgu2iSpa7EVyzn6_OyRhfh-IfZ7TwJqqnbf-_dN_KngA3Z8Dvk_dGKKMOpgeLmuUaH0fJTUuTlQ_k6Zzhn7hyhmNUR0Rj024jOt0g3NBJzoZTs84pRF6B_QgPBjhDwIff8vmL9HDxSrurlQ4N81Y4oZFuwFTuMc01z2YgGDbNFGPohVWj6m6NL8qCxfvrE-USiW2QHvkW311k-2QVRjgENxtV_2r-3AWY0P72iIpPbMLWfJ7NSWryLfrqUapptYz8kywsa38"
             />
         </div>
-        <!-- Vertical Image -->
+
+        <!-- Imagen Vertical/Secundaria -->
         <div
-            class="md:col-span-4 h-[500px] border-4 border-[#FFCC00] overflow-hidden grayscale contrast-150"
+            class="md:col-span-4 h-[300px] sm:h-[400px] md:h-[500px] border-4 border-[#FFCC00] overflow-hidden grayscale contrast-150"
         >
             <img
                 alt="Laptop y tecnología"
-                class="w-full h-full object-cover"
-                data-alt="A close-up, monochromatic shot of a high-performance laptop and professional workspace items on a dark, textured desk. The lighting is dramatic and directional, highlighting the sharp edges of the technology and creating a brutalist aesthetic. The image conveys technical precision and high-end industrial design, fitting perfectly within the minimalist and professional context of the LiderazgoTech brand."
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3okOAtj0xhv9RCBokJ5_RyAL4BXRKVIW7I3AIQrc0TNmb_2rknZ5Vbn7K_2Vj2Z4pJKsaffZ1Xd2dwHZWM4r3nT3UKgVQjyfoGeWyo85OvtlqKc7wIPTQwPPwj4uaNyEq3MGGkUoLguq-vSR_njGHZj1yoKzPpS7vSRarE_98nLRrbUKvw9-0m24xP2Re_F9UC_Ew5QGFQEazZW7jqTJvz9utMe7nU3kjT2qFnXVgoVoIEzh5OKu1xH_y4k6u1L0XL78FTSt6uJr9"
             />
         </div>
-        <!-- Horizontal Image -->
+
+        <!-- Imagen Panorámica Inferior -->
         <div
-            class="md:col-span-12 h-[300px] border-4 border-[#FFCC00] overflow-hidden grayscale"
+            class="md:col-span-12 h-[200px] md:h-[300px] border-4 border-[#FFCC00] overflow-hidden grayscale"
         >
             <img
                 alt="Espacio industrial"
-                class="w-full h-full object-cover"
-                data-alt="A wide-angle, black and white photograph of an expansive, open-plan industrial office space with minimalist furniture and architectural elements. The lighting is bright and even, highlighting the clean lines and solid blocks of the interior design. The atmosphere is quiet and focused, representing a high-level environment for leadership and technological development, using the brand's stark monochromatic color scheme."
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIc90rFnRlmlYTsvfQQFba4g86MA3VKYynSuHTnRpo_TtgdZJYauul5a65GaqWwiGXYjUmi7e81XNc-WY1Uf1xsPWeO-5_jX0OAEkNDu86hykp731qUfRHRWidVyEOMNv7-UrSxKjPs_2SeQQcGx1Frixv8gB-KUmDzCSfdT6XAB7ocBFYvLaQV6Q-827VT5kCjcjpX1cWpQChSqNogqY9pVU3HVpt3SE7hOpuqBKWhsHZWJwIdQx6jHmkVPe_Jm-hjzL7Yf85f5Tr"
             />
         </div>
