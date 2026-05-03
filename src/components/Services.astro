@@ -1,93 +1,48 @@
-<!-- Servicios Section -->
-<section class="bg-[#fcf9f8] px-16 py-block-padding" id="servicios">
-    <div class="mb-16">
-        <h2
-            class="text-headline-lg font-headline-lg uppercase border-b-8 border-[#1A1A1A] inline-block mb-4"
-        >
+<!-- Sección Servicios -->
+<section class="bg-[#fcf9f8] px-6 md:px-16 py-12 md:py-[var(--block-padding)]" id="servicios">
+    <div class="mb-12 md:mb-16">
+        <h2 class="text-3xl lg:text-headline-lg font-bold uppercase border-b-8 border-[#1A1A1A] inline-block mb-4">
             Sistemas de Servicio
         </h2>
     </div>
-    <div
-        class="grid grid-cols-1 md:grid-cols-4 gap-0 border-4 border-[#1A1A1A]"
-    >
-        <!-- Servicio 1 -->
-        <div
-            class="p-12 border-b-4 md:border-b-0 md:border-r-4 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group"
-        >
-            <div
-                class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]"
-            >
-                <span
-                    class="material-symbols-outlined text-[#1A1A1A] group-hover:text-white"
-                    data-icon="precision_manufacturing"
-                    >precision_manufacturing</span
-                >
+
+    <!-- Grid adaptable: 1 en móvil, 2 en tablet, 4 en desktop -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 border-4 border-[#1A1A1A]">
+        
+        <!-- Servicio 1: Borde derecho en tablet (sm) y desktop (lg) -->
+        <div class="p-10 lg:p-12 border-b-4 sm:border-r-4 lg:border-b-0 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group">
+            <div class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]">
+                <span class="material-symbols-outlined !text-4xl text-[#1A1A1A] group-hover:text-white">precision_manufacturing</span>
             </div>
-            <h3 class="text-headline-md font-headline-md uppercase">
-                Arquitectura Operativa
-            </h3>
-            <p class="text-body-md font-body-md">
-                Diseño de flujos de trabajo de alto rendimiento para equipos de
-                ingeniería y producto.
-            </p>
+            <h3 class="text-2xl lg:text-headline-md font-bold uppercase">Arquitectura Operativa</h3>
+            <p class="text-base lg:text-body-md">Diseño de flujos de trabajo de alto rendimiento para equipos de ingeniería y producto.</p>
         </div>
-        <!-- Servicio 2 -->
-        <div
-            class="p-12 border-b-4 md:border-b-0 md:border-r-4 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group"
-        >
-            <div
-                class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]"
-            >
-                <span
-                    class="material-symbols-outlined text-[#1A1A1A] group-hover:text-white"
-                    data-icon="psychology">psychology</span
-                >
+
+        <!-- Servicio 2: Borde derecho SOLO en desktop (lg) -->
+        <div class="p-10 lg:p-12 border-b-4 lg:border-r-4 lg:border-b-0 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group">
+            <div class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]">
+                <span class="material-symbols-outlined !text-4xl text-[#1A1A1A] group-hover:text-white">psychology</span>
             </div>
-            <h3 class="text-headline-md font-headline-md uppercase">
-                Mentoria Ejecutiva
-            </h3>
-            <p class="text-body-md font-body-md">
-                Acompañamiento estratégico para CTOs y VPs de Ingeniería en
-                entornos de hiper-crecimiento.
-            </p>
+            <h3 class="text-2xl lg:text-headline-md font-bold uppercase">Mentoria Ejecutiva</h3>
+            <p class="text-base lg:text-body-md">Acompañamiento estratégico para CTOs y VPs de Ingeniería en entornos de hiper-crecimiento.</p>
         </div>
-        <!-- Servicio 3 -->
-        <div
-            class="p-12 border-b-4 md:border-b-0 md:border-r-4 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group"
-        >
-            <div
-                class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]"
-            >
-                <span
-                    class="material-symbols-outlined text-[#1A1A1A] group-hover:text-white"
-                    data-icon="lan">lan</span
-                >
+
+        <!-- Servicio 3: Borde derecho en tablet (sm) y desktop (lg) -->
+        <div class="p-10 lg:p-12 border-b-4 sm:border-b-0 sm:border-r-4 border-[#1A1A1A] space-y-8 hover:bg-[#FFCC00] transition-none group">
+            <div class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]">
+                <span class="material-symbols-outlined !text-4xl text-[#1A1A1A] group-hover:text-white">lan</span>
             </div>
-            <h3 class="text-headline-md font-headline-md uppercase">
-                Cultura de Ingeniería
-            </h3>
-            <p class="text-body-md font-body-md">
-                Construcción de principios técnicos que fomentan la autonomía y
-                la responsabilidad radical.
-            </p>
+            <h3 class="text-2xl lg:text-headline-md font-bold uppercase">Cultura de Ingeniería</h3>
+            <p class="text-base lg:text-body-md">Construcción de principios técnicos que fomentan la autonomía y la responsabilidad radical.</p>
         </div>
-        <!-- Servicio 4 -->
-        <div class="p-12 space-y-8 hover:bg-[#FFCC00] transition-none group">
-            <div
-                class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]"
-            >
-                <span
-                    class="material-symbols-outlined text-[#1A1A1A] group-hover:text-white"
-                    data-icon="monitoring">monitoring</span
-                >
+
+        <!-- Servicio 4: Sin bordes internos (se apoya en el borde del contenedor padre) -->
+        <div class="p-10 lg:p-12 space-y-8 hover:bg-[#FFCC00] transition-none group">
+            <div class="w-20 h-20 border-4 border-[#1A1A1A] flex items-center justify-center bg-white group-hover:bg-[#1A1A1A]">
+                <span class="material-symbols-outlined !text-4xl text-[#1A1A1A] group-hover:text-white">monitoring</span>
             </div>
-            <h3 class="text-headline-md font-headline-md uppercase">
-                Auditoría Técnica
-            </h3>
-            <p class="text-body-md font-body-md">
-                Evaluación profunda de procesos y stack tecnológico para
-                optimización de costes y deuda técnica.
-            </p>
+            <h3 class="text-2xl lg:text-headline-md font-bold uppercase">Auditoría Técnica</h3>
+            <p class="text-base lg:text-body-md">Evaluación profunda de procesos y stack tecnológico para optimización de costes y deuda técnica.</p>
         </div>
     </div>
 </section>
