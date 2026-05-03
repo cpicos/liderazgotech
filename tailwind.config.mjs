@@ -3,7 +3,7 @@ export default {
         content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
         theme: {
           extend: {
-            "colors": {
+            colors: {
                     "surface-container-low": "#f6f3f2",
                     "outline-variant": "#d2c5ab",
                     "inverse-on-surface": "#f3f0ef",
@@ -52,37 +52,19 @@ export default {
                     "primary": "#745b00",
                     "on-secondary-container": "#636262"
             },
-            "borderRadius": {
+            borderRadius: {
                     "DEFAULT": "0px",
                     "lg": "0px",
                     "xl": "0px",
                     "full": "9999px"
             },
-            "spacing": {
+            spacing: {
                     "gutter": "32px",
                     "container-max": "1280px",
                     "margin": "40px",
                     "block-padding": "64px",
                     "base": "8px"
             },
-            "fontFamily": {
-                    "headline-md": ["Space Grotesk"],
-                    "key-concept": ["Inter"],
-                    "body-md": ["Inter"],
-                    "headline-lg": ["Space Grotesk"],
-                    "body-lg": ["Inter"],
-                    "label": ["Inter"],
-                    "headline-xl": ["Space Grotesk"]
-            },
-            "fontSize": {
-                    "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
-                    "key-concept": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "800"}],
-                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "label": ["12px", {"lineHeight": "1.0", "fontWeight": "600"}],
-                    "headline-xl": ["80px", {"lineHeight": "1.0", "letterSpacing": "-0.02em", "fontWeight": "700"}]
-            }
           },
         },
         plugins: [],
