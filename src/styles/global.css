@@ -9,8 +9,28 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Font Control*/
+
 @layer components {
+
+  /*Color*/
+  .text-secondary{
+  opacity: 1;
+  color: rgb(95, 94, 94);
+ } 
+
+ /*Spacing*/
+ .py-block-padding{
+  padding-bottom: 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 64px;
+ }
+
+  /*Font Control*/
+  .leading-relaxed{
+    line-height: 1.625;
+  }
+  
   .font-key-concept{
     font-family: 'Inter';
   }
