@@ -5,8 +5,19 @@
   font-size: 40px;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
+} */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 
