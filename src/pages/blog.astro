@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import HeroBlog from '../components/HeroBlog.astro';
+import FeaturedPostBlog from '../components/FeaturePostBlog.astro';
+import ArticleGridBlog from '../components/ArticleGridBlog.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="LiderazgoTech | Blog">
+  <Header />
+  <main>
+    <HeroBlog />
+    <FeaturedPostBlog />
+    <ArticleGridBlog />
+    <CallToAction />
+  </main>
+  <Footer />
+</Layout>

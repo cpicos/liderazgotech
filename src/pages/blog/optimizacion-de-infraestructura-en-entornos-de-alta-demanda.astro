@@ -1,0 +1,372 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<Layout
+  title="LiderazgoTech | Optimizacion de infraestructura en entornos de alta demanda"
+>
+  <Header />
+  <main>
+    <!-- Hero Section -->
+    <section class="w-full pt-24 md:pt-32 bg-[#1A1A1A] text-white">
+      <!-- Cambio: min-h-[614px] solo en desktop para evitar espacios vacíos en móvil -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 lg:min-h-[614px]">
+        <div
+          class="lg:col-span-7 flex flex-col justify-center p-6 md:p-16 bg-[#FFCC00] text-[#1A1A1A] border-b-4 lg:border-b-0 lg:border-r-4 border-[#1A1A1A]"
+        >
+          <div class="mb-6 flex flex-wrap items-center gap-4">
+            <span
+              class="bg-[#1A1A1A] text-[#FFCC00] px-3 py-1 font-key-concept text-sm md:text-base"
+            >
+              PROTOCOLO DE RED
+            </span>
+            <span class="font-key-concept text-xs md:text-sm opacity-70">
+              REF: LT-2024-INFRA
+            </span>
+          </div>
+          <!-- Cambio: Escala de texto fluida para el H1 -->
+          <h1
+            class="font-headline-xl text-4xl md:text-6xl lg:text-7xl uppercase mb-8 leading-none tracking-tighter"
+          >
+            Optimización de infraestructuras en entornos de alta demanda
+          </h1>
+
+          <!-- Cambio: Grid ajustable de 2 a 4 columnas -->
+          <div
+            class="grid grid-cols-2 sm:grid-cols-4 gap-6 border-t-2 border-[#1A1A1A] pt-8"
+          >
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                FECHA
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                OCT 24, 2024
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                AUTOR
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                ING. MARCO VILLA
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                ESTADO
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                PUBLICADO
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                LEER
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                12 MIN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen: Altura fija en móvil para que no desaparezca -->
+        <div
+          class="lg:col-span-5 h-[300px] lg:h-auto relative grayscale overflow-hidden"
+        >
+          <img
+            alt="Industrial architecture"
+            class="w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQse1HFIjN9JZkt9Y9HgDWHiVijUGxETTcWs-Xl5stlzEbzEt0UnjQMDWMbcM2CKXGQJE_sUG6h3KNdymm_XCYEhQBW36ruR1JRFs3t0ZozbzfQNYR1vVKIh08gwQ0IOWTYTCi3Nf4GH-nzdE6AcsViPEAjmGK2HC7hjeH6r3fE3ElxW7a2Ut3j3sBhQhbjiovTAm0MEswU9VbDSiH7zSukcd-bIpOJZ0dYBafM_VdI0MyfboDRvbUrM2r1tEK0xGWO8_mhDAhvZch"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Article Body -->
+    <section
+      class="max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-12"
+    >
+      <!-- Sidebar: Ahora se oculta en móvil o podrías convertirla en un menú horizontal si lo deseas -->
+      <aside class="hidden lg:block lg:col-span-3">
+        <div class="sticky top-32 space-y-12">
+          <div class="border-l-4 border-[#FFCC00] pl-6">
+            <h4 class="font-key-concept text-sm mb-4 uppercase font-black">
+              CONTENIDO
+            </h4>
+            <ul
+              class="space-y-4 font-label text-xs uppercase tracking-widest font-bold"
+            >
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#intro"
+                  >01. ARQUITECTURA BASE</a>
+              </li>
+              <li>
+                <a
+                  class="hover:text-[#FFCC00] transition-colors"
+                  href="#protocol">02. PROTOCOLOS DE ESCALA</a>
+              </li>
+              <li>
+                <a
+                  class="hover:text-[#FFCC00] transition-colors"
+                  href="#redundancy">03. REDUNDANCIA CRÍTICA</a>
+              </li>
+              <li>
+                <a
+                  class="hover:text-[#FFCC00] transition-colors"
+                  href="#metrics">04. MÉTRICAS DE IMPACTO</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-[#1A1A1A] p-6 text-[#FFCC00] border-t-4 border-[#FFCC00]"
+          >
+            <span class="material-symbols-outlined mb-4">settings</span>
+            <p class="font-label text-xs uppercase leading-tight font-bold">
+              Herramientas recomendadas para monitoreo industrial
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <article class="lg:col-span-9 max-w-full lg:max-w-3xl">
+        <div class="mb-16" id="intro">
+          <h2
+            class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none"
+          >
+            01. ARQUITECTURA DE DATOS PARA SISTEMAS DE ALTO RENDIMIENTO
+          </h2>
+          <div
+            class="font-serif text-lg md:text-xl leading-relaxed text-[#333] space-y-6"
+          >
+          <p>
+            En el panorama actual de la ingeniería de sistemas, la robustez no
+            es opcional. Las infraestructuras deben ser concebidas como
+            máquinas de precisión, donde cada nodo y conexión cumple una
+            función específica dentro de un engranaje mayor. La transición de
+            arquitecturas monolíticas a ecosistemas distribuidos demanda un
+            rigor técnico sin precedentes.
+          </p>
+          <p>
+            La implementación de protocolos de red optimizados permite reducir
+            la latencia en un 40% durante picos de tráfico. Este análisis
+            desglosa las metodologías aplicadas en centros de datos de grado
+            industrial, donde la redundancia es el pilar de la continuidad
+            operativa.
+          </p>
+          </div>
+        </div>
+
+        <!-- Quote Block: Ajuste de padding en móvil -->
+        <div
+          class="bg-[#FFCC00] p-8 md:p-12 border-4 border-[#1A1A1A] my-16 relative overflow-hidden"
+        >
+          <span
+            class="material-symbols-outlined absolute -right-4 -bottom-4 text-8xl opacity-10"
+            >terminal</span
+          >
+          <h3 class="font-key-concept text-sm md:text-base mb-4 font-black">
+            TECHNICAL INSIGHT: OPTIMIZACIÓN
+          </h3>
+          <p
+            class="text-2xl md:text-3xl font-black text-[#1A1A1A] italic leading-tight"
+          >
+            "La eficiencia de una red no se mide por su capacidad máxima, sino
+            por su estabilidad bajo estrés."
+          </p>
+        </div>
+
+        <div class="mb-16" id="protocol">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            02. PROTOCOLOS DE ESCALA Y GESTIÓN DE RECURSOS
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              Los sistemas de balanceo de carga de capa 4 y capa 7 constituyen
+              la primera línea de defensa. Mediante la aplicación de algoritmos
+              de enrutamiento dinámico, es posible orquestar volúmenes de datos
+              masivos sin comprometer la integridad del hardware base.
+            </p>
+            <ul class="list-none space-y-4">
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >01</span
+                >
+                <span
+                  >Segmentación lógica de subredes para aislamiento de fallos.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >02</span
+                >
+                <span
+                  >Implementación de caché distribuida en nodos de borde.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >03</span
+                >
+                <span
+                  >Monitoreo en tiempo real con alertas de umbral industrial.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Graphic Placeholder / Technical Visual -->
+      <div class="industrial-border p-8 bg-white my-16">
+        <div class="flex justify-between items-end mb-8">
+          <div>
+            <p
+              class="font-key-concept text-key-concept text-[#FFCC00] bg-[#1A1A1A] px-2 py-1 inline-block mb-2"
+            >
+              FIG. 04-A
+            </p>
+            <h4 class="font-headline-md text-2xl uppercase">
+              ESQUEMA DE INTERCONEXIÓN
+            </h4>
+          </div>
+          <span class="material-symbols-outlined text-4xl" data-icon="schema"
+            >schema</span
+          >
+        </div>
+        <div
+          class="h-64 w-full bg-[#f0eded] border-2 border-dashed border-[#1A1A1A] flex items-center justify-center"
+        >
+          <div class="text-center">
+            <span
+              class="material-symbols-outlined text-6xl opacity-20"
+              data-icon="grid_view">grid_view</span
+            >
+            <p class="font-label text-label uppercase mt-4">
+              Diagrama de flujo de datos técnicos
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-16" id="redundancy">
+        <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+          03. REDUNDANCIA CRÍTICA Y FAILOVER
+        </h2>
+        <div class="font-slab text-body-lg leading-relaxed text-[#333]">
+          <p>
+            La redundancia no debe ser vista simplemente como una copia de
+            seguridad, sino como un sistema activo de disponibilidad continua.
+            En entornos de alta demanda, el tiempo de conmutación debe ser
+            medido en milisegundos. La arquitectura "Active-Active" permite
+            que todos los recursos estén en uso constante, optimizando la
+            inversión en infraestructura mientras se garantiza una seguridad
+            total ante desastres.
+          </p>
+        </div>
+      </div>
+
+        <!-- Resto del contenido similar con ajustes de texto fluído... -->
+      </article>
+    </section>
+
+    <!-- Related Posts -->
+    <section
+      class="bg-[#1A1A1A] text-white py-16 px-6 md:px-12 border-t-4 border-[#FFCC00]"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4"
+        >
+          <h2 class="text-3xl md:text-5xl font-black uppercase leading-none">
+            Documentación <br class="md:hidden" /> Relacionada
+          </h2>
+          <span class="material-symbols-outlined text-5xl text-[#FFCC00]"
+            >database</span
+          >
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card -->
+          <div
+            class="bg-[#2A2A2A] border-2 border-white/10 p-8 hover:border-[#FFCC00] transition-all group"
+          >
+            <p
+              class="font-key-concept text-[#FFCC00] text-xs mb-4 font-bold tracking-tighter"
+            >
+              CASO DE ESTUDIO
+            </p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Sistemas de enfriamiento líquido en data centers
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 text-xs uppercase tracking-widest border-b-2 border-[#FFCC00] pb-1 font-bold"
+              href="#"
+            >
+              ACCEDER <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </a>
+          </div>
+
+
+          <!-- Related 2 -->
+        <div
+        class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+      >
+        <p class="font-key-concept text-[#FFCC00] mb-4">PROTOCOLO</p>
+        <h3
+          class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+        >
+          SEGURIDAD PERIMETRAL EN ENTORNOS CLOUD HYBRID
+        </h3>
+        <a
+          class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+          href="#"
+        >
+          ACCEDER <span
+            class="material-symbols-outlined text-sm"
+            data-icon="arrow_forward">arrow_forward</span
+          >
+        </a>
+      </div>
+      <!-- Related 3 -->
+      <div
+        class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+      >
+        <p class="font-key-concept text-[#FFCC00] mb-4">ARCHIVE</p>
+        <h3
+          class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+        >
+          EVOLUCIÓN DE LOS MICROPROCESADORES 2010-2024
+        </h3>
+        <a
+          class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+          href="#"
+        >
+          ACCEDER <span
+            class="material-symbols-outlined text-sm"
+            data-icon="arrow_forward">arrow_forward</span
+          >
+        </a>
+      </div>
+          <!-- Repetir para otros elementos -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
