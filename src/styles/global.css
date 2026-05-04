@@ -37,6 +37,15 @@ html, body {
   padding-top: 64px;
  }
 
+ .px-margin{
+  padding-left: 40px;
+  padding-right: 40px;
+ }
+
+ .gap-gutter{
+  gap: 32px;
+ }
+
   /*Font Control*/
   .leading-relaxed{
     line-height: 1.625;
