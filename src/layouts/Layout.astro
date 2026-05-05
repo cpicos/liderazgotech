@@ -4,14 +4,17 @@ import '../styles/global.css';
  
 interface Props {
   title: string;
+  metaDescription: string;
 }
 const { title } = Astro.props;
+const { metaDescription } = Astro.props;
 ---
 <!DOCTYPE html>
 <html class="light" lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={metaDescription} />
     <title>{title}</title>
     <!-- Fuentes exactas de code.html -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
