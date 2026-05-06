@@ -5,13 +5,11 @@
 > Pega aquí tus notas, audios transcritos o puntos clave. No importa el orden, la IA se encargará de la estructura.
 
 **TEXTO EN BRUTO:**
-De IT a negocio: como dejar de ser soporte y volverte estratégico
-
-problema: IT sigue siendo visto como gasto
-
-Enseñanza: Como hablar en lenguaje financiero (ROI, margen, crecimiento)
-
-Ideal para: Líderes de IT que quieren subir de nivel
+Como volverte visible y generar oportunidades
+Problema: Expertos invisibles, conocen de todo pero nadie los ubica para tomar decisiones.
+Enseñanza: Agente de cambio, tecnología a negocio, posicionamiento dentro de la empresa, autoridad.
+Ideal para: Ingenieros de sistemas, analistas de datos, project managers
+Autor: Ing. Christian Picos
 
 ---
 

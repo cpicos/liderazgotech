@@ -1,0 +1,393 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<Layout
+  title="LiderazgoTech | Como integrar plataformas que no se hablan entre si"
+  metaDescription="Aprende a conectar sistemas aislados con arquitectura, APIs y sincronizacion en tiempo real para operar con datos consistentes."
+>
+  <Header />
+  <main>
+    <!-- Hero Section -->
+    <section class="w-full pt-24 md:pt-32 bg-[#1A1A1A] text-white">
+      <div class="grid grid-cols-1 lg:grid-cols-12 lg:min-h-[614px]">
+        <div
+          class="lg:col-span-7 flex flex-col justify-center p-6 md:p-16 bg-[#FFCC00] text-[#1A1A1A] border-b-4 lg:border-b-0 lg:border-r-4 border-[#1A1A1A]"
+        >
+          <div class="mb-6 flex flex-wrap items-center gap-4">
+            <span
+              class="bg-[#1A1A1A] text-[#FFCC00] px-3 py-1 font-key-concept text-sm md:text-base"
+            >
+              ARQUITECTURA API
+            </span>
+            <span class="font-key-concept text-xs md:text-sm opacity-70">
+              REF: LT-2026-API
+            </span>
+          </div>
+          <h1
+            class="font-headline-xl text-4xl md:text-6xl lg:text-7xl uppercase mb-8 leading-none tracking-tighter"
+          >
+            Como integrar plataformas que no se hablan entre si
+          </h1>
+
+          <div
+            class="grid grid-cols-2 sm:grid-cols-4 gap-6 border-t-2 border-[#1A1A1A] pt-8"
+          >
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                FECHA
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                MAY 05, 2026
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                AUTOR
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                ING. CHRISTIAN PICOS
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                ESTADO
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                PUBLICADO
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                LEER
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                10 MIN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="lg:col-span-5 h-[300px] lg:h-auto relative grayscale overflow-hidden"
+        >
+          <img
+            alt="Pantallas de monitoreo conectando datos entre multiples plataformas"
+            class="w-full h-full object-cover"
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Article Body -->
+    <section
+      class="max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-12"
+    >
+      <aside class="hidden lg:block lg:col-span-3">
+        <div class="sticky top-32 space-y-12">
+          <div class="border-l-4 border-[#FFCC00] pl-6">
+            <h4 class="font-key-concept text-sm mb-4 uppercase font-black">
+              CONTENIDO
+            </h4>
+            <ul
+              class="space-y-4 font-label text-xs uppercase tracking-widest font-bold"
+            >
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#silos"
+                  >01. SISTEMAS AISLADOS</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#arquitectura"
+                  >02. ARQUITECTURA PUENTE</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#sincronia"
+                  >03. SINCRONIZACION</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#gobierno"
+                  >04. GOBIERNO DE DATOS</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-[#1A1A1A] p-6 text-[#FFCC00] border-t-4 border-[#FFCC00]"
+          >
+            <span class="material-symbols-outlined mb-4">hub</span>
+            <p class="font-label text-xs uppercase leading-tight font-bold">
+              Herramientas recomendadas para APIs, webhooks, colas y monitoreo
+              de integraciones
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <article class="lg:col-span-9 max-w-full lg:max-w-3xl">
+        <div class="mb-16" id="silos">
+          <h2
+            class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none"
+          >
+            01. CUANDO LOS SISTEMAS AISLADOS FRENAN LA OPERACION
+          </h2>
+          <div
+            class="font-serif text-lg md:text-xl leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              En muchas empresas, ventas vive en un CRM, finanzas en un ERP,
+              operaciones en hojas de calculo y soporte en una mesa de ayuda.
+              Cada herramienta cumple su funcion, pero el negocio paga el costo
+              de la desconexion: capturas duplicadas, datos inconsistentes,
+              reportes tardios y decisiones tomadas con informacion incompleta.
+            </p>
+            <p>
+              Integrar plataformas no significa forzar que todo viva en un solo
+              sistema. Significa disenar una arquitectura donde cada aplicacion
+              conserve su especialidad y, al mismo tiempo, comparta eventos,
+              datos y estados criticos con el resto del ecosistema.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#FFCC00] p-8 md:p-12 border-4 border-[#1A1A1A] my-16 relative overflow-hidden"
+        >
+          <span
+            class="material-symbols-outlined absolute -right-4 -bottom-4 text-8xl opacity-10"
+            >terminal</span
+          >
+          <h3 class="font-key-concept text-sm md:text-base mb-4 font-black">
+            TECHNICAL INSIGHT: INTEGRACION
+          </h3>
+          <p
+            class="text-2xl md:text-3xl font-black text-[#1A1A1A] italic leading-tight"
+          >
+            "La integracion madura no conecta pantallas: conecta decisiones,
+            eventos y responsabilidades operativas."
+          </p>
+        </div>
+
+        <div class="mb-16" id="arquitectura">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            02. DISENAR UNA ARQUITECTURA PUENTE, NO UN PARCHE
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              El error comun es resolver cada integracion como una conexion
+              puntual entre dos herramientas. Ese enfoque funciona al inicio,
+              pero crece como una red fragil de dependencias dificiles de
+              mantener. La alternativa es definir contratos claros: APIs,
+              webhooks, colas de mensajes, procesos ETL y reglas de ownership
+              para cada dato.
+            </p>
+            <ul class="list-none space-y-4">
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >01</span
+                >
+                <span
+                  >API-first para exponer capacidades de negocio sin acoplar
+                  sistemas internos.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >02</span
+                >
+                <span
+                  >Eventos para notificar cambios relevantes sin depender de
+                  consultas manuales o cargas batch.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >03</span
+                >
+                <span
+                  >Mapeo de datos para evitar que cada plataforma interprete un
+                  cliente, pedido o factura de forma distinta.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Graphic Placeholder / Technical Visual -->
+        <div class="industrial-border p-8 bg-white my-16">
+          <div class="flex justify-between items-end mb-8">
+            <div>
+              <p
+                class="font-key-concept text-key-concept text-[#FFCC00] bg-[#1A1A1A] px-2 py-1 inline-block mb-2"
+              >
+                FIG. 05-I
+              </p>
+              <h4 class="font-headline-md text-2xl uppercase">
+                BUS DE INTEGRACION OPERATIVA
+              </h4>
+            </div>
+            <span class="material-symbols-outlined text-4xl" data-icon="schema"
+              >schema</span
+            >
+          </div>
+          <div
+            class="h-64 w-full bg-[#f0eded] border-2 border-dashed border-[#1A1A1A] flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span
+                class="material-symbols-outlined text-6xl opacity-20"
+                data-icon="account_tree">account_tree</span
+              >
+              <p class="font-label text-label uppercase mt-4">
+                Flujo entre CRM, ERP, soporte, inventario y analitica
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-16" id="sincronia">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            03. SINCRONIZACION EN TIEMPO REAL CON CONTROL DE FALLAS
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              No todos los datos necesitan tiempo real, pero los procesos
+              criticos si necesitan consistencia operativa. Un cambio de estado
+              de pedido, una actualizacion de inventario o una aprobacion de
+              pago pueden disparar decisiones inmediatas en otras areas. La
+              sincronizacion debe priorizar eventos que cambian el flujo del
+              negocio.
+            </p>
+            <p>
+              Una integracion seria tambien contempla fallas: reintentos,
+              trazabilidad, colas de errores, alertas y reconciliacion. Si un
+              sistema externo cae, la arquitectura debe degradarse con control,
+              no romper silenciosamente la cadena completa.
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-16" id="gobierno">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            04. GOBIERNO DE DATOS PARA ESCALAR SIN PERDER CONFIANZA
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              Developers y Project Managers necesitan una misma verdad
+              operativa: quien crea el dato, quien lo modifica, quien lo
+              consume y como se audita. Sin gobierno, cada integracion nueva
+              aumenta la ambiguedad. Con gobierno, cada conexion se convierte en
+              una capacidad reutilizable para el negocio.
+            </p>
+            <p>
+              La meta no es tener mas conexiones, sino menos friccion entre
+              herramientas. Cuando las plataformas se comunican con contratos
+              estables, el equipo reduce trabajo manual, acelera proyectos y
+              convierte la tecnologia en una base confiable para operar y
+              crecer.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Related Posts -->
+    <section
+      class="bg-[#1A1A1A] text-white py-16 px-6 md:px-12 border-t-4 border-[#FFCC00]"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4"
+        >
+          <h2 class="text-3xl md:text-5xl font-black uppercase leading-none">
+            Documentacion <br class="md:hidden" /> Relacionada
+          </h2>
+          <span class="material-symbols-outlined text-5xl text-[#FFCC00]"
+            >database</span
+          >
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="bg-[#2A2A2A] border-2 border-white/10 p-8 hover:border-[#FFCC00] transition-all group"
+          >
+            <p
+              class="font-key-concept text-[#FFCC00] text-xs mb-4 font-bold tracking-tighter"
+            >
+              ESTRATEGIA IT
+            </p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              De IT a negocio: como dejar de ser soporte y volverte estrategico
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 text-xs uppercase tracking-widest border-b-2 border-[#FFCC00] pb-1 font-bold"
+              href="/blog/de-it-a-negocio-como-dejar-de-ser-soporte-y-volverte-estrategico"
+            >
+              ACCEDER <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </a>
+          </div>
+
+          <div
+            class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+          >
+            <p class="font-key-concept text-[#FFCC00] mb-4">INFRAESTRUCTURA</p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Optimizacion de infraestructura en entornos de alta demanda
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+              href="/blog/optimizacion-de-infraestructura-en-entornos-de-alta-demanda"
+            >
+              ACCEDER <span
+                class="material-symbols-outlined text-sm"
+                data-icon="arrow_forward">arrow_forward</span
+              >
+            </a>
+          </div>
+
+          <div
+            class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+          >
+            <p class="font-key-concept text-[#FFCC00] mb-4">LIDERAZGO IT</p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Liderazgo humano en tiempos de tecnologia
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+              href="/blog/liderazgo-en-it"
+            >
+              ACCEDER <span
+                class="material-symbols-outlined text-sm"
+                data-icon="arrow_forward">arrow_forward</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
