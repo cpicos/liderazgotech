@@ -5,10 +5,10 @@
 > Pega aquí tus notas, audios transcritos o puntos clave. No importa el orden, la IA se encargará de la estructura.
 
 **TEXTO EN BRUTO:**
-Como volverte visible y generar oportunidades
-Problema: Expertos invisibles, conocen de todo pero nadie los ubica para tomar decisiones.
-Enseñanza: Agente de cambio, tecnología a negocio, posicionamiento dentro de la empresa, autoridad.
-Ideal para: Ingenieros de sistemas, analistas de datos, project managers
+IT no lidera proyectos, lidera resultados
+Problema: En el largo plazo de nada sirve hacer muchos proyectos que solamente impactan a 1 o 2 personas, tampoco estar resolviendo tickets como loco, hay una diferencia enorme entre estar ocupado y tener progreso. Los resultados deben ser medibles en funciones del negocio y no en volumen de trabajo realizado. Muchas veces el equipo de IT suele ser el fabricante de sus propios problemas "garantizando siempre tener trabajo" porque existe esta idea que si nadie lo puede hacer aparte de mí, entonces, tengo un puesto asegurado, sin embargo, esa falta de progreso, también asegura que no escales en tu carrera profesional.
+Enseñanza: Mide tu trabajo en función del negocio y no en el tiempo que estas ocupado. Hay proyectos super simples de 1 o 2 semanas que tienen un gran impacto, por otra parte, hay proyectos super complejos de meses que cuando son culminados ya no sirven para la organización. Entiende en el negocio donde estas metido, no todo el personal de IT trabaja en empresas que se dedican a la tecnología, por eso es de vital importancia entender el impacto de tus soluciones y como se alinean a los resultados de la empresa.
+Ideal para: Personal de tecnología, Líderes de tecnología
 Autor: Ing. Christian Picos
 
 ---

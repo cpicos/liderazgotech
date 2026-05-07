@@ -1,0 +1,395 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<Layout
+  title="LiderazgoTech | La seguridad de los datos en una era digital"
+  metaDescription="Protege informacion personal y empresarial con habitos claros de acceso, contrasenas, permisos y criterio digital."
+>
+  <Header />
+  <main>
+    <!-- Hero Section -->
+    <section class="w-full pt-24 md:pt-32 bg-[#1A1A1A] text-white">
+      <div class="grid grid-cols-1 lg:grid-cols-12 lg:min-h-[614px]">
+        <div
+          class="lg:col-span-7 flex flex-col justify-center p-6 md:p-16 bg-[#FFCC00] text-[#1A1A1A] border-b-4 lg:border-b-0 lg:border-r-4 border-[#1A1A1A]"
+        >
+          <div class="mb-6 flex flex-wrap items-center gap-4">
+            <span
+              class="bg-[#1A1A1A] text-[#FFCC00] px-3 py-1 font-key-concept text-sm md:text-base"
+            >
+              SEGURIDAD DIGITAL
+            </span>
+            <span class="font-key-concept text-xs md:text-sm opacity-70">
+              REF: LT-2026-SEC
+            </span>
+          </div>
+          <h1
+            class="font-headline-xl text-4xl md:text-6xl lg:text-7xl uppercase mb-8 leading-none tracking-tighter"
+          >
+            La seguridad de los datos en una era digital
+          </h1>
+
+          <div
+            class="grid grid-cols-2 sm:grid-cols-4 gap-6 border-t-2 border-[#1A1A1A] pt-8"
+          >
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                FECHA
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                MAY 06, 2026
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                AUTOR
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                ING. CHRISTIAN PICOS
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                ESTADO
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                PUBLICADO
+              </p>
+            </div>
+            <div>
+              <p
+                class="font-label text-[10px] md:text-xs opacity-60 uppercase mb-1"
+              >
+                LEER
+              </p>
+              <p class="font-key-concept text-sm md:text-base font-bold">
+                9 MIN
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="lg:col-span-5 h-[300px] lg:h-auto relative grayscale overflow-hidden"
+        >
+          <img
+            alt="Servidor empresarial con controles de seguridad para proteger informacion confidencial"
+            class="w-full h-full object-cover"
+            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Article Body -->
+    <section
+      class="max-w-7xl mx-auto px-6 md:px-12 py-12 md:py-24 grid grid-cols-1 lg:grid-cols-12 gap-12"
+    >
+      <aside class="hidden lg:block lg:col-span-3">
+        <div class="sticky top-32 space-y-12">
+          <div class="border-l-4 border-[#FFCC00] pl-6">
+            <h4 class="font-key-concept text-sm mb-4 uppercase font-black">
+              CONTENIDO
+            </h4>
+            <ul
+              class="space-y-4 font-label text-xs uppercase tracking-widest font-bold"
+            >
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#riesgo"
+                  >01. RIESGO COTIDIANO</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#accesos"
+                  >02. ACCESOS Y PERMISOS</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#habitos"
+                  >03. HABITOS DIGITALES</a>
+              </li>
+              <li>
+                <a class="hover:text-[#FFCC00] transition-colors" href="#cultura"
+                  >04. CULTURA DE DATOS</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-[#1A1A1A] p-6 text-[#FFCC00] border-t-4 border-[#FFCC00]"
+          >
+            <span class="material-symbols-outlined mb-4">shield_lock</span>
+            <p class="font-label text-xs uppercase leading-tight font-bold">
+              Herramientas recomendadas para gestion de contrasenas, MFA,
+              clasificacion de informacion y auditoria de accesos
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <article class="lg:col-span-9 max-w-full lg:max-w-3xl">
+        <div class="mb-16" id="riesgo">
+          <h2
+            class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none"
+          >
+            01. EL RIESGO YA NO VIVE SOLO EN EL AREA DE IT
+          </h2>
+          <div
+            class="font-serif text-lg md:text-xl leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              En la empresa moderna, la informacion se comparte por correo,
+              chats, plataformas en la nube, dispositivos personales y accesos
+              temporales. Esa velocidad ayuda a operar, pero tambien aumenta la
+              superficie de exposicion. Un archivo enviado al contacto
+              incorrecto, una liga abierta o una contrasena reutilizada pueden
+              convertirse en una fuga critica.
+            </p>
+            <p>
+              La seguridad de datos no es paranoia tecnica. Es disciplina
+              operativa. Cada persona que toca informacion confidencial se vuelve
+              parte del sistema de proteccion, incluso si no pertenece al equipo
+              de tecnologia. El riesgo aparece cuando compartir se vuelve
+              automatico y revisar deja de ser un habito.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#FFCC00] p-8 md:p-12 border-4 border-[#1A1A1A] my-16 relative overflow-hidden"
+        >
+          <span
+            class="material-symbols-outlined absolute -right-4 -bottom-4 text-8xl opacity-10"
+            >terminal</span
+          >
+          <h3 class="font-key-concept text-sm md:text-base mb-4 font-black">
+            TECHNICAL INSIGHT: DATOS
+          </h3>
+          <p
+            class="text-2xl md:text-3xl font-black text-[#1A1A1A] italic leading-tight"
+          >
+            "La seguridad real empieza cuando cada acceso, archivo y permiso se
+            trata como una decision de negocio, no como un tramite tecnico."
+          </p>
+        </div>
+
+        <div class="mb-16" id="accesos">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            02. CONTROLAR ACCESOS ANTES DE LAMENTAR FILTRACIONES
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              La pregunta clave no es solo donde esta la informacion, sino quien
+              puede verla, editarla, descargarla y compartirla. Muchas fugas no
+              ocurren por ataques sofisticados, sino por permisos heredados,
+              carpetas publicas, usuarios que ya no deberian tener acceso o
+              documentos enviados sin clasificacion.
+            </p>
+            <ul class="list-none space-y-4">
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >01</span
+                >
+                <span
+                  >Aplica minimo privilegio: cada persona debe tener solo el
+                  acceso necesario para cumplir su funcion.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >02</span
+                >
+                <span
+                  >Activa autenticacion multifactor en cuentas criticas,
+                  correos, plataformas financieras y herramientas de nube.</span
+                >
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="bg-[#1A1A1A] text-white p-1 text-xs font-bold"
+                  >03</span
+                >
+                <span
+                  >Revisa accesos de forma periodica, especialmente despues de
+                  cambios de puesto, salidas de personal o cierre de proyectos.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Graphic Placeholder / Technical Visual -->
+        <div class="industrial-border p-8 bg-white my-16">
+          <div class="flex justify-between items-end mb-8">
+            <div>
+              <p
+                class="font-key-concept text-key-concept text-[#FFCC00] bg-[#1A1A1A] px-2 py-1 inline-block mb-2"
+              >
+                FIG. 10-S
+              </p>
+              <h4 class="font-headline-md text-2xl uppercase">
+                MAPA DE EXPOSICION DE DATOS
+              </h4>
+            </div>
+            <span class="material-symbols-outlined text-4xl" data-icon="lock"
+              >lock</span
+            >
+          </div>
+          <div
+            class="h-64 w-full bg-[#f0eded] border-2 border-dashed border-[#1A1A1A] flex items-center justify-center"
+          >
+            <div class="text-center">
+              <span
+                class="material-symbols-outlined text-6xl opacity-20"
+                data-icon="security">security</span
+              >
+              <p class="font-label text-label uppercase mt-4">
+                Relacion entre usuarios, dispositivos, permisos, archivos y
+                canales de intercambio
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-16" id="habitos">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            03. HABITOS BASICOS QUE PROTEGEN INFORMACION CRITICA
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              La proteccion de datos se sostiene con habitos simples ejecutados
+              siempre. Usar un gestor de contrasenas, evitar contrasenas
+              repetidas, validar destinatarios antes de enviar archivos,
+              desconfiar de ligas urgentes y bloquear el equipo al ausentarse
+              reducen riesgos reales sin grandes inversiones.
+            </p>
+            <p>
+              Fuera de la empresa, la responsabilidad continua. Redes publicas,
+              dispositivos compartidos, capturas de pantalla, documentos en
+              mensajeria personal y respaldos sin control pueden exponer datos
+              propios o de terceros. La seguridad no termina cuando cierras la
+              laptop corporativa.
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-16" id="cultura">
+          <h2 class="text-3xl md:text-4xl font-black uppercase mb-8 leading-none">
+            04. CONSTRUIR UNA CULTURA DONDE COMPARTIR NO SIGNIFIQUE EXPONER
+          </h2>
+          <div
+            class="font-slab text-body-lg leading-relaxed text-[#333] space-y-6"
+          >
+            <p>
+              Una cultura madura de datos no bloquea el trabajo: lo ordena. Las
+              personas deben saber que informacion es publica, interna,
+              confidencial o restringida, y que canal corresponde para cada
+              caso. Sin reglas claras, cada usuario improvisa su propio criterio
+              de seguridad.
+            </p>
+            <p>
+              Proteger informacion es una responsabilidad compartida entre
+              personas, procesos y tecnologia. Cuando la empresa combina
+              controles tecnicos con criterio humano, reduce el riesgo de robo
+              de informacion y construye confianza con clientes, proveedores,
+              colaboradores y socios.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Related Posts -->
+    <section
+      class="bg-[#1A1A1A] text-white py-16 px-6 md:px-12 border-t-4 border-[#FFCC00]"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-4"
+        >
+          <h2 class="text-3xl md:text-5xl font-black uppercase leading-none">
+            Documentacion <br class="md:hidden" /> Relacionada
+          </h2>
+          <span class="material-symbols-outlined text-5xl text-[#FFCC00]"
+            >database</span
+          >
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="bg-[#2A2A2A] border-2 border-white/10 p-8 hover:border-[#FFCC00] transition-all group"
+          >
+            <p
+              class="font-key-concept text-[#FFCC00] text-xs mb-4 font-bold tracking-tighter"
+            >
+              ESTRATEGIA IA
+            </p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Como implementar IA en tu empresa
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 text-xs uppercase tracking-widest border-b-2 border-[#FFCC00] pb-1 font-bold"
+              href="/blog/como-implementar-ia-en-tu-empresa"
+            >
+              ACCEDER <span class="material-symbols-outlined text-sm"
+                >arrow_forward</span
+              >
+            </a>
+          </div>
+
+          <div
+            class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+          >
+            <p class="font-key-concept text-[#FFCC00] mb-4">ARQUITECTURA API</p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Como integrar plataformas que no se hablan entre si
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+              href="/blog/como-integrar-plataformas-que-no-se-hablan-entre-si"
+            >
+              ACCEDER <span
+                class="material-symbols-outlined text-sm"
+                data-icon="arrow_forward">arrow_forward</span
+              >
+            </a>
+          </div>
+
+          <div
+            class="bg-[#2A2A2A] industrial-border border-white/20 p-8 hover:border-[#FFCC00] transition-colors group"
+          >
+            <p class="font-key-concept text-[#FFCC00] mb-4">INFRAESTRUCTURA</p>
+            <h3
+              class="text-xl font-black uppercase mb-6 group-hover:text-[#FFCC00] leading-tight"
+            >
+              Optimizacion de infraestructura en entornos de alta demanda
+            </h3>
+            <a
+              class="inline-flex items-center gap-2 font-label text-label uppercase tracking-widest border-b border-[#FFCC00] pb-1"
+              href="/blog/optimizacion-de-infraestructura-en-entornos-de-alta-demanda"
+            >
+              ACCEDER <span
+                class="material-symbols-outlined text-sm"
+                data-icon="arrow_forward">arrow_forward</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
