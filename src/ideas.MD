@@ -64,3 +64,21 @@ Problema: En el largo plazo de nada sirve hacer muchos proyectos que solamente i
 Enseñanza: Mide tu trabajo en función del negocio y no en el tiempo que estas ocupado. Hay proyectos super simples de 1 o 2 semanas que tienen un gran impacto, por otra parte, hay proyectos super complejos de meses que cuando son culminados ya no sirven para la organización. Entiende en el negocio donde estas metido, no todo el personal de IT trabaja en empresas que se dedican a la tecnología, por eso es de vital importancia entender el impacto de tus soluciones y como se alinean a los resultados de la empresa.
 Ideal para: Personal de tecnología, Líderes de tecnología
 Autor: Ing. Christian Picos
+
+Cómo defender presupuesto IT ante dirección
+Problema: Conoces la solución detalladamente, ya evaluaste los riesgos, posibilidades de éxito, has practicado y tienes todo medido, aún así el proyecto no prospera y dirección no toma la decisión de arrancar con las iniciativas.
+Enseñanza: Comunicar valor a los directivos, hablar en términos de negocio, influir sobre las decisiones de manera ética.
+Ideal para: Líderes de tecnología
+Autor: Ing. Christian Picos
+
+Cómo influir en stakeholders no técnicos
+Problema: No todo es tecnología, tampoco no todos tienen tu preparación académica, incluso en el mundo actual que es altamente digital, todavía hay muchas generaciones que no se sienten cómodos de trabajar directamente con la tecnología, sin importar la edad y aunque la tecnología esté a la orden del día, no es lo mismo utilizar redes sociales que hablar sobre servidores, ciberseguridad y tendencias de ingeniería.
+Enseñanza: Entiende tu entorno, aprende a hablar desde la perspectiva de la otra persona, domina los términos básicos y tradúcelos con analogías simples de comprender, buscas estar en el mismo nivel de pensamiento para alineas ideas, no necesitas ser el que tenga el mayor conocimiento, buscas armar equipos y decisiones estratégicas no solamente seguidores que aplaudan las buenas y malas decisiones
+Ideal para: Líderes de tecnología
+Autor: Ing. Christian Picos
+
+No solo seas el de sistemas, conviértete en un activo de la empresa
+Problema: Resolver lo técnico es bueno PARA EMPEZAR, es el primer escalón, pero entender del negocio otorga mucho valor y justamente esto es lo que no le importa a una persona de tecnología, o al menos no le importa al inicio hasta que ve que está estancado.
+Enseñanza: Mira más allá de los atributos técnicos, observa con grado de detalle el entorno, el negocio, las acciones principales, de donde vienen los ingresos de la empresa, cual es la actividad fundamental, sobre esto piensa una estrategia para entregar valor y resolver problemas reales en función de las necesidades de la empresa, no por moda, no por cambios tecnológicos, sino en función de brindar un mejor servicio
+Ideal para: Personal de tecnología, Líderes de tecnología
+Autor: Ing. Christian Picos

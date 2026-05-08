@@ -5,9 +5,9 @@
 > Pega aquí tus notas, audios transcritos o puntos clave. No importa el orden, la IA se encargará de la estructura.
 
 **TEXTO EN BRUTO:**
-IT no lidera proyectos, lidera resultados
-Problema: En el largo plazo de nada sirve hacer muchos proyectos que solamente impactan a 1 o 2 personas, tampoco estar resolviendo tickets como loco, hay una diferencia enorme entre estar ocupado y tener progreso. Los resultados deben ser medibles en funciones del negocio y no en volumen de trabajo realizado. Muchas veces el equipo de IT suele ser el fabricante de sus propios problemas "garantizando siempre tener trabajo" porque existe esta idea que si nadie lo puede hacer aparte de mí, entonces, tengo un puesto asegurado, sin embargo, esa falta de progreso, también asegura que no escales en tu carrera profesional.
-Enseñanza: Mide tu trabajo en función del negocio y no en el tiempo que estas ocupado. Hay proyectos super simples de 1 o 2 semanas que tienen un gran impacto, por otra parte, hay proyectos super complejos de meses que cuando son culminados ya no sirven para la organización. Entiende en el negocio donde estas metido, no todo el personal de IT trabaja en empresas que se dedican a la tecnología, por eso es de vital importancia entender el impacto de tus soluciones y como se alinean a los resultados de la empresa.
+No solo seas el de sistemas, conviértete en un activo de la empresa
+Problema: Resolver lo técnico es bueno PARA EMPEZAR, es el primer escalón, pero entender del negocio otorga mucho valor y justamente esto es lo que no le importa a una persona de tecnología, o al menos no le importa al inicio hasta que ve que está estancado.
+Enseñanza: Mira más allá de los atributos técnicos, observa con grado de detalle el entorno, el negocio, las acciones principales, de donde vienen los ingresos de la empresa, cual es la actividad fundamental, sobre esto piensa una estrategia para entregar valor y resolver problemas reales en función de las necesidades de la empresa, no por moda, no por cambios tecnológicos, sino en función de brindar un mejor servicio
 Ideal para: Personal de tecnología, Líderes de tecnología
 Autor: Ing. Christian Picos
 
