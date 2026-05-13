@@ -82,3 +82,19 @@ Problema: Resolver lo técnico es bueno PARA EMPEZAR, es el primer escalón, per
 Enseñanza: Mira más allá de los atributos técnicos, observa con grado de detalle el entorno, el negocio, las acciones principales, de donde vienen los ingresos de la empresa, cual es la actividad fundamental, sobre esto piensa una estrategia para entregar valor y resolver problemas reales en función de las necesidades de la empresa, no por moda, no por cambios tecnológicos, sino en función de brindar un mejor servicio
 Ideal para: Personal de tecnología, Líderes de tecnología
 Autor: Ing. Christian Picos
+
+El lenguaje del dinero: lo que todo líder de IT debe dominar
+Problema: Cuando una persona técnica tiene la oportunidad de escalar dentro de la empresa se llega a enfrentar a un choque cultural de aspectos tecnológicos a temas de índole humana y psicológica, parte de este enfoque es el dinero, no se trata de salario, sino de la manera en que una empresa sobrevive, el flujo de caja, los ingresos de la empresa vs sus gastos, curiosamente las piezas tecnológicas (el capital humano tech) son grupos que no están realmente atentos a este tipo de elementos económicos, desconocen términos como estado o balance de resultados, EBITDA, ROI, costos, no se trata de ser de contabilidad, se trata de entender como estos números influyen en el negocio.
+Enseñanza: Establecer claramente los términos financieros indispensables del personal tecnológico para estar al mismo nivel que el resto de la empresa y mesa directiva para tomar decisiones con enfoque estratégico.
+Ideal para: Líderes de tecnología
+Autor: Ing. Christian Picos
+
+De resolver tickets a resolver problemas de negocio
+Problema: Esto se puede traducir de "apagar fuegos" a "construir el futuro de la empresa", en cada compañía existen diversos equipos de trabajo interdisciplinarios, todo trabajo realizado se debe ligar o relacionar con los objetivos empresariales, su relación debe ser directa con los avances esperados dentro de la planificación anual o semestral. Esto cambia el "chip mental" porque no solamente es necesario hacer el trabajo, es importante entender cuales son las piezas clave para la empresa y cuales son para hacer mi trabajo "más fácil".
+Enseñanza: Priorizar las tareas en función de los objetivos de la empresa, dedicar el esfuerzo proporcional acorde para obtener progreso y no solamente estar ocupados.
+Ideal para: Personal de tecnología, Líderes de tecnología
+
+El síndrome del héroe en IT
+Problema: Saber de tecnología con detalles muy específicos suele verse como un "super poder", esto puede llenar de ego a la persona que cuenta con estas habilidades, esa sensación de superioridad con respecto al mundo, sin embargo, esta capacidad también trae problemas directos, porque esa proyección interna puede volverte en el cuello de botella de la empresa, porque te puedes volver en la persona que necesitan pero que simplemente no respetan, ser líder de IT es mucho más que el posicionamiento interno o tener poder sobre el aspecto tecnológico.
+Enseñanza: Aprender a reflexionar sobre el entorno y como ligar esto con la mejora tecnológica, buscar la solución más simple aunque en la mayoría de los escenarios no sean tus ideas o no sean tus posturas tecnológicas las que se adopten.
+Ideal para: Personal de tecnología, Líderes de tecnología
